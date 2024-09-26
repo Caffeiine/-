@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    
     <meta charset="UTF-8">
-    <title>ЗАПИСЬ С КАМЕР КАБИНЕТА 216</title>
-    <a href="index.html"><link rel="icon" href="img/atmosphe.svg"></a>
+    <title>Главная страница</title>
+    <link rel="icon" href="img/atmosphe.svg">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header> 
         <a href="index.html"><img src="img/atmosphe.svg" alt="Икока сайта"></a>
-        <h1>ЗАПИСЬ С КАМЕР КАБИНЕТА 216</h1>
+        <h1>VERSTKA</h1>
         <nav>
-            <a href="index.html">На главную</a>
+            <a href="#about">Обо мне</a>
+            <a href="#articles">Мои статьи</a>
         </nav>
     </header>
 
-    <div class="container container_kuhny">
-        <section id="about1">
-            
-            <h2>Преступление Кирилла Корниловича</h2>
-            <p>
-                В руки наших журналитов оперативно попала запись с камер видонаблюдения из кабинета 216. На данном видеоматериале запечетлён момент, когда Кирилл Корнилович, выдающийся отличник, закинул контейнер из под сендвича за системный блок, предварительно туда харкнув, а после, покинул место преступления.
-                <br>
-                <br>Напомним, что на днях, он занял призовое место на квизе от Акселератора ЮУрГУ, чем удивил своих одногруппников и куратора. Поэтому поверить в сказанное выше, довольно трудно.
-            </p>
-            <img class="kuhny" src="img/преступник.png" alt="">
-            <p>
-                Ниже представлен фрагмент видеозаписи за секунды до преступления. К сожалению, полностью показать запись мы не можем, так как кадры очень страшные.
-            </p>
-            
-            <img class="kuhny" src="img/camera_216.gif" alt="">
-        
-            <p>
-                Но чтоже могло подтолкнуть его с совершению такого "свинского" поступка? Извините за терминологию.
-                <br>
-                <br>Скорее всего мотивом послужила незаслуженно маленькое кол-во поставленных отметок "5" на одной из пар Мистера Блинова, которая могла вызвать у Кирилла Корниловича девиантное поведение. Мы можем только гадать на эту тему, а истину, скорее всего, мы никогда не узнаем.
-                <br>
-                <br>Но после проведённых мер наказаний, Кирилла назначили патрулировать территории кибинета 216, чтобы сдавать нарушителей чистоты Андрею Вячеславовичу.
-                <br>
-                <br>Ниже представленна таблици со всей имеющеся информацией по этому делу.
-            </p>
-            <div class="table">
-                <table class=" table day-timetable" style="text-align:center;">
-                    <tbody><tr style="background-color:#059600; color:#fff;">
-                        <th class="table-col-l">Преступник</th>
-                        <th class="table-col-r">Дата совершения преступления</th>
-                        <th class="table-col-r">Предпологаемый мотив</th>
-                        <th class="table-col-r">Меры пресечения</th>
-                        <th class="table-col-r">Потерпевшие</th>
-                    </tr>
-                    <tr>
-                        <td class="table-col-l"> Кирилл Корнилович</td>
-                        <td class="table-col-r td_text_lesson"> 24.09.2024  <span class="hide-content" style="display:none" id="hide_full_text"></span> </td>
-                        <td class="table-col-r td_text_lesson"> Слишком маленькое кол-во поставленных отметок "5" за пару.  <span class="hide-content" style="display:none" id="hide_full_text"></span> </td>
-                        <td class="table-col-r td_text_lesson"> Объяснительная, воспитательный разговор, выговор, - реп от Андрея Вячеславовича.  <span class="hide-content" style="display:none" id="hide_full_text"></span> </td>
-                        <td class="table-col-r td_text_lesson"> Кабинет 216, Андрей Вячеславович Блинов, И-207<span class="hide-content" style="display:none" id="hide_full_text"></span> </td>
-                    </tr>
-                </table>
-            </div>
+    <div class="container">
+        <div class="name">
+            <img src="img/avatar.png" alt="Фотография профиля">
+            <span>
+                <b>Морозов Демид Дмитриевич</b>
+                <p>Гений, миллиардер, плейбой, филантроп</p>
+            </span>
+        </div>
+
+        <section class="articles" id="articles">
+            <h2>ШОК!</h2>
+            <a href="article5.html">ЗАПИСЬ С КАМЕР КАБИНЕТА 216</a><br>
+        </section>
+
+        <section id="about">
+            <h2>Обо мне</h2>
+            <blockquote>
+                <p>
+                    "Hello! And welcome to the Los Pollos Hermanos family. My name is Gustavo, but you can call me "Gus". I am thrilled that you'll be joining our team. Each and every day, we serve our customers exceptional food, with impecable service. We take pride in everything that we do."
+                </p>
+                <cite> Gustavo Fring</cite>
+            </blockquote>
+            <br>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
+            <!-- <textarea>print("Hello World")</textarea> -->
+        </section>
+    
+        <section class="articles" id="articles">
+            <h2>Мои статьи</h2>
+            <a href="article1.html">Что такое HTML и как его изучать?</a><br>
+            <a href="article2.html">Гайд по герою Enigma Dota 2</a><br>
+            <a href="article3.html">Почему сериал "Кухня" это БАЗА?</a><br>
+            <a href="article4.html">Булочка с маком - история успеха</a>
         </section>
     </div>
 
@@ -71,3 +63,4 @@
     </footer>
 </body>
 </html>
+
